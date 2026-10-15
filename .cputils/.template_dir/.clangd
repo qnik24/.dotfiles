@@ -1,0 +1,9 @@
+CompileFlags:
+  Compiler: g++
+  BuiltinHeaders: QueryDriver
+  Add: [ -xc++, -Wall, -I. ]
+Index:
+  Background: Skip
+Completion:
+  ArgumentLists: Delimiters
+  HeaderInsertion: Never
